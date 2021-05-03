@@ -73,8 +73,8 @@ Food-101 с использованием техники обучения Transfe
 * **Графики обучения EfficientNetB0 с использованием аугментации данных RandomRotation(исследуем параметр заполнения fill_mode)**:
   Здесь параметр factor равен 0.04.
    * График точности epoch_categorical_accuracy:
-   <img src="./graphs/rot_mode_categorical_accuracy.png">
-   <img src="./graphs/rot_mode_categorical_accuracy_legend.png">
+   <img src="./graphs/rot_mode_ctegorical_accuracy.png">
+   <img src="./graphs/rot_mode_ctegorical_accuracy_legend.png">
  
    * График функции потерь epoch_loss:
    <img src="./graphs/rot_mode_loss.png">
