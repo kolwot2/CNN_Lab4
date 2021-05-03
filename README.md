@@ -32,12 +32,12 @@ Food-101 с использованием техники обучения Transfe
    <img src="./graphs/flip_loss.png">
    <img src="./graphs/flip_loss_legend.png">
    
- * **Визуализации данных после RandomFlip('horizontal'):
+ * **Визуализации данных после RandomFlip('horizontal')**:
  <img src="./graphs/flip_h_data.png">
 
- * **Визуализации данных после RandomFlip('vertical'):
+ * **Визуализации данных после RandomFlip('vertical')**:
  <img src="./graphs/flip_v_data.png">
 
- * **Визуализации данных после RandomFlip('horizontal_and_vertical'):
+ * **Визуализации данных после RandomFlip('horizontal_and_vertical')**:
  <img src="./graphs/flip_hv_data.png">
  * **Анализ полученных результатов**: Наивысшие значения метрики точности наблюдаются на графике с темпом обучения 0.0001 (67.8%). Также на графике функции потерь у нейронной сети с темпом 0.0001 наблюдаются наименьшие значения (1.199). Можно сказать, что в данной ситуации шаг 0.0001 является оптимальным для политики с фиксированным темпом обучения.
