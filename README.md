@@ -82,17 +82,19 @@ Food-101 с использованием техники обучения Transfe
    
 * **Анализ полученных результатов**: Из графиков видно, что наилучшие показатели у параметра заполнения nearest. Мы повысили точность примерно на 0.1%, но по-прежнему показатели хуже, чем у базовой нейронной сети. По итогу, оптимальными параметрами в RandomRotation будем считать factor=0.04 и fill_mode='nearest'.
 
-* **Визуализации данных после RandomRotation(fill_mode = 'nearest')**:
+ * **Визуализации данных после RandomRotation(fill_mode = 'nearest')**:
  <img src="./graphs/rot_004_near_data.png">
 
- * **Визуализации данных после RandomRotation(fill_mode = 'wrap')**:
+  * **Визуализации данных после RandomRotation(fill_mode = 'wrap')**:
  <img src="./graphs/rot_004_wrap_data.png">
 
- * **Визуализации данных после RandomRotation(fill_mode = 'constant', fill_value=255)**:
+  * **Визуализации данных после RandomRotation(fill_mode = 'constant', fill_value=255)**:
  <img src="./graphs/rot_004_const255_data.png">
  
- * **Визуализации данных после RandomRotation(fill_mode = 'reflect')**:
+  * **Визуализации данных после RandomRotation(fill_mode = 'reflect')**:
  <img src="./graphs/rot_016_r_data.png">
+ 
+ 
  ## 2. бучить нейронную сеть с использованием оптимальных техник аугментации данных 1a-с совместно.
   * **Графики обучения EfficientNetB0 с использованием оптимальных техник аугментации данных совместно**:
   * График точности epoch_categorical_accuracy:
